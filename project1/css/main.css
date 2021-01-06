@@ -1,0 +1,82 @@
+@import "topnav.css";
+@import "blog.css";
+@import "header.css";
+
+body{
+    background: white;
+    color: #444;
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    /* Step 1: Set display to grid */
+    display:block;
+    width: 100%;
+    border: 2px solid yellow;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+.content{
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    color: #444;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+#cards{
+    height: 600px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: #444;
+    transition: 0.3s;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+}
+.card h3{
+    height: 30%;
+    /* align: center; */
+    background-color: rgba(0, 132, 140, 0.8);
+    color: white;
+}
+.card p{
+    padding: 0 5px
+}
+/* Float four columns side by side */
+.column {
+    margin: 5%;
+    float: left;
+    width: 20%;
+    padding: 10px 10px;
+    position: relative;
+}
+#cards div a{
+    text-decoration: none;
+}
+/* Responsive columns */
+@media screen and (max-width: 900px) {
+    .column {
+      padding: 5px;
+      margin: 5%;
+    }
+    .content{
+        height: 300;
+    }
+  }

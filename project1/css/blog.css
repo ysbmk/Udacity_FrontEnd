@@ -1,0 +1,90 @@
+/* Container for flexboxes */
+.section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  /* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 30%;
+    background:white;
+    padding: 20px;
+    color: #444;
+}
+/* Style the content */
+#blog {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 70%;
+    padding: 10px;
+    display: inline-block
+}
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+}
+.recentBlogs{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    background:
+    linear-gradient(
+      to left, 
+      #fec20f, #edebd9
+    )
+    left 
+    bottom
+    white   
+    no-repeat; 
+  background-size:100% 5px ;
+}
+.blogTitle{
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid #edebd9;
+    border-bottom: 2px solid #edebd9;
+}
+img{
+    width: 50%;
+}
+.donateButton {
+    background-color: #4CAF50; /* Green */
+    animation: flash 4s linear infinite;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+@keyframes flash {
+    0%,50%,100%{
+        opacity: 0;
+    }
+
+    35%{
+        opacity: 1;
+        background:#7fff00;
+    }
+
+    65%{
+        opacity: 1;
+        background:#0091EA;
+    }
+}
+
+@media (max-width: 600px) {
+    .section {
+      -webkit-flex-direction: column;
+      flex-direction: column-reverse;
+    }
+    img{
+        width: 70%;
+    }
+  }

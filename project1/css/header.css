@@ -1,0 +1,32 @@
+
+.header{
+    display: block;
+    background-color: #edebd9;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    margin: 0;
+    background-image: url("../images/header_oli-350.png");
+    height: 206px;
+}
+.title{
+    display: inline;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    /* top: 30%;
+    right: -50%; */
+}
+@media screen and (min-width: 601px){
+    .header{
+        background-image: url("../images/header_oli-600.png");
+        height: 353px;
+    }
+    .title{
+        top: 50%;
+        left: 55%;
+    }
+}
