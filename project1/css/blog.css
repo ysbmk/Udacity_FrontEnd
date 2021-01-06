@@ -62,7 +62,18 @@ img{
     text-align: center;
     display: inline-block;
     font-size: 16px;
-  }
+}
+.shareButtons{
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas: 
+    ". share .";
+    justify-items: center;
+}
+
+.shareButton{
+    text-decoration: none;
+}
 @keyframes flash {
     0%,50%,100%{
         opacity: 0;
@@ -88,3 +99,8 @@ img{
         width: 70%;
     }
   }
+.container > * {
+margin-bottom: 10px;
+}
+
+/* Now let's apply grid for wider viewports. */

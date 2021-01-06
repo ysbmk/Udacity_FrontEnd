@@ -25,6 +25,7 @@ footer {
 
 .content{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     position: relative;
     background-color: white;
@@ -75,8 +76,19 @@ footer {
     .column {
       padding: 5px;
       margin: 5%;
+      /* width: 100%; */
     }
     .content{
         height: 300;
     }
+    #cards{
+        height: auto;
+    }
   }
+@media screen and (max-width: 600px){
+    .column {
+        padding: 2px;
+        margin: 5%;
+        width: 100%;
+      }
+}
