@@ -50,6 +50,10 @@ nav ul li a{
     border-top: 2px solid #edebd9;
     border-bottom: 2px solid #edebd9;
 }
+.authourIntro{
+    border: 2px solid olivedrab;
+    padding-left: 10%;
+}
 img{
     width: 50%;
 }
