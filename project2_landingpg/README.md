@@ -6,8 +6,9 @@
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This project is for Udacity Front End Web Devvelopper Nanodegree Program to practice interactive landing page using html, css, and javascript.
 
-To get started, open `js/app.js` and start building out the app's functionality
+It is mainly to demonstrate how to layout and how to respond to the actions on the website such as scrolling using javascript.
+The top navigation bar is created using javascript. 
+As it'll be shown once index.html is opened on a browser, the top navigation bar is styled using javascript and the animation and styling changes when the page is scrolled. 
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
