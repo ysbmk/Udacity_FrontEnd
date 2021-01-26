@@ -19,7 +19,7 @@ app.use(express.static('website'))
 
 
 // Setup Server
-const port = 3002;
+const port = 7777;
 
 const server = app.listen(
     port, 
