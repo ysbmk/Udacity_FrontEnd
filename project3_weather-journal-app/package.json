@@ -1,0 +1,18 @@
+{
+  "name": "wja_package",
+  "version": "1.0.0",
+  "description": "## Overview A simple weather app using the WeatherMap API Third project submission for the Front End Nanodegree by Udacity.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
